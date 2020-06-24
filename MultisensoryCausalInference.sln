@@ -23,11 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiXRInternalEditor", "To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiXREditor", "TobiiXREditor.csproj", "{CF24F975-4948-6751-069C-777EE62DF71D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{13905967-341B-6A6C-8507-80905FFF8CDD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Windows_EditorHelper", "SteamVR_Windows_EditorHelper.csproj", "{1EA4B0E6-B834-9870-0813-0A6898350BB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeModifierEditor", "GazeModifierEditor.csproj", "{C2AF6B7E-5DC9-59EC-0F5F-EACBAF418F4C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{13905967-341B-6A6C-8507-80905FFF8CDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +79,10 @@ Global
 		{CF24F975-4948-6751-069C-777EE62DF71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF24F975-4948-6751-069C-777EE62DF71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF24F975-4948-6751-069C-777EE62DF71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13905967-341B-6A6C-8507-80905FFF8CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13905967-341B-6A6C-8507-80905FFF8CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13905967-341B-6A6C-8507-80905FFF8CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13905967-341B-6A6C-8507-80905FFF8CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EA4B0E6-B834-9870-0813-0A6898350BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EA4B0E6-B834-9870-0813-0A6898350BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA4B0E6-B834-9870-0813-0A6898350BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,10 +91,6 @@ Global
 		{C2AF6B7E-5DC9-59EC-0F5F-EACBAF418F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2AF6B7E-5DC9-59EC-0F5F-EACBAF418F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2AF6B7E-5DC9-59EC-0F5F-EACBAF418F4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13905967-341B-6A6C-8507-80905FFF8CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13905967-341B-6A6C-8507-80905FFF8CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13905967-341B-6A6C-8507-80905FFF8CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13905967-341B-6A6C-8507-80905FFF8CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\ViveInput.cs" />
     <Compile Include="Assets\SteamAudio\AudioEngine.cs" />
     <Compile Include="Assets\SteamAudio\AudioEngineAmbisonicsSource.cs" />
     <Compile Include="Assets\SteamAudio\AudioEngineAmbisonicsSourceFactory.cs" />
