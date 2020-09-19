@@ -63,7 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DataController.cs" />
+    <Compile Include="Assets\Scripts\LaserInput.cs" />
+    <Compile Include="Assets\Scripts\ResponseController.cs" />
+    <Compile Include="Assets\Scripts\SecondResponseController.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\Scripts\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\State.cs" />
+    <Compile Include="Assets\Scripts\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\States\EndBlock.cs" />
+    <Compile Include="Assets\Scripts\States\EndTask.cs" />
+    <Compile Include="Assets\Scripts\States\EndTrial.cs" />
+    <Compile Include="Assets\Scripts\States\ITI.cs" />
+    <Compile Include="Assets\Scripts\States\SecondTrialResponse.cs" />
+    <Compile Include="Assets\Scripts\States\StartBlock.cs" />
+    <Compile Include="Assets\Scripts\States\StartTrial.cs" />
+    <Compile Include="Assets\Scripts\States\TrialResponse.cs" />
+    <Compile Include="Assets\Scripts\TaskEvent.cs" />
+    <Compile Include="Assets\Scripts\TaskManager.cs" />
+    <Compile Include="Assets\Scripts\Util.cs" />
     <Compile Include="Assets\Scripts\ViveInput.cs" />
     <Compile Include="Assets\SteamAudio\AudioEngine.cs" />
     <Compile Include="Assets\SteamAudio\AudioEngineAmbisonicsSource.cs" />
