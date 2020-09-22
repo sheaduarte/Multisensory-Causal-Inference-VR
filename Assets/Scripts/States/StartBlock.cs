@@ -14,6 +14,7 @@ namespace CausalInfMSI
 		public override IEnumerator Start()
 		{
 			TaskManager.trial = 0;
+			yield return new WaitForSeconds(5f);
 			TaskManager.SetState(new StartTrial(TaskManager));
 			yield return null;
 		}

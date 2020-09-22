@@ -13,12 +13,12 @@ namespace CausalInfMSI
         {
             m_BooleanAction = SteamVR_Actions._default.GrabPinch;
         }
-        private void Update()
-        {
-            if (m_BooleanAction.GetStateDown(SteamVR_Input_Sources.Any))
-            {
-                print("trigger enabled");
-            }
-        }
+        //private void Update()
+        //{
+        //    if (m_BooleanAction.GetStateDown(SteamVR_Input_Sources.Any))
+        //    {
+        //        print("trigger enabled");
+        //    }
+        //}
     } 
 }

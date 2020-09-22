@@ -43,30 +43,35 @@ namespace CausalInfMSI
                     currentObject = hit.collider.gameObject;
                 }
             }
-
+            
+            if(onTriggerSqueeze.GetStateDown(SteamVR_Input_Sources.Any) && currentObject.transform.tag == "Response")
+            {
+                response = currentObject.transform.name;
+                Debug.Log(response);
+            }
+            
         }
 
         public void OnViveTriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources Any)
         {
-            string response = currentObject.name.ToString();
-            Debug.Log(currentObject.name);
+            string response  = currentObject.transform.name;
+            //Debug.Log(response);
             currentObject.GetComponent<Renderer>().material.color = new Color32((byte)redCol, (byte)greenCol, (byte)blueCol, 255);
-            somethingSelected = true;
         }
 
-        public string GetResponseSelected()
-        {
-            if(somethingSelected == true)
-            {
-                //string response = currentObject.name;
-                return response;
-            }
-            else
-            {
-                return null;
-            }
-            //return responses;           
-        }
+        //public string GetResponseSelected()
+        //{
+        //    if(somethingSelected == true)
+        //    {
+        //        //string response = currentObject.name;
+        //        return response;
+        //    }
+        //    else
+        //    {
+        //        return null;
+        //    }
+        //    //return responses;           
+        //}
 
 
     } 

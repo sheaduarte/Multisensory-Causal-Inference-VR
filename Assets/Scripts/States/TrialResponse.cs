@@ -25,16 +25,16 @@ namespace CausalInfMSI
 
         }
 
-        public IEnumerator ListenForResponses()
-        {
+        //public IEnumerator ListenForResponses()
+        //{
 
-            TaskManager.responseController.enabled = true;
-            while (TaskManager.responseController.enabled)
-            {
-                yield return null;
-            }
+        //    TaskManager.responseController.enabled = true;
+        //    while (TaskManager.responseController.enabled)
+        //    {
+        //        yield return null;
+        //    }
 
-            TaskManager.LogData();
-        }
+        //    TaskManager.LogData();
+        //}
     } 
 }

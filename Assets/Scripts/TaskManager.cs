@@ -52,14 +52,12 @@ namespace CausalInfMSI
 
 		public void LogData()
 		{
-			//string stim = spawnController.GetStimSpawned();
-			//string response = responseController.response;
-			string response = laserInput.response;
+			string stim = spawnController.stimulus;
 
 			_dataController.row["subject"] = subjectID;
 			_dataController.row["trial"] = trial.ToString();
+			_dataController.row["stimulus"] = stim;
 			_dataController.row["response"] = response;
-			//_dataController.row["stimulus"] = stim;
 
 			_dataController.Log();
 		}

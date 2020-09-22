@@ -17,22 +17,24 @@ namespace CausalInfMSI
             yield return new WaitForSeconds(2f);
             TaskManager.secondResponseController.SpawnSecondResponseBlobs();
             //yield return TaskManager.StartCoroutine(ListenForResponses());
+            TaskManager.response = TaskManager.laserInput.response;
             TaskManager.LogData();
+
             // Go to next state
             TaskManager.SetState(new EndTrial(TaskManager));
         }
 
-        public IEnumerator ListenForResponses()
-        {
+        //public IEnumerator ListenForResponses()
+        //{
 
-            TaskManager.laserInput.enabled = true;
-            while (TaskManager.laserInput.enabled)
-            {
-                yield return null;
-            }
+        //    TaskManager.laserInput.enabled = true;
+        //    while (TaskManager.laserInput.enabled)
+        //    {
+        //        yield return null;
+        //    }
 
-            TaskManager.LogData();
-        }
+        //    TaskManager.LogData();
+        //}
 
     }
 }
