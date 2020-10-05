@@ -8,24 +8,25 @@ namespace CausalInfMSI
 {
     public class SpawnController : MonoBehaviour
     {
-        public GameObject[] stimObjects;
+        //public GameObject[] stimObjects;
+        private List<GameObject> stimObjects;
         public float spawnTime;
         public float stimulusDuration;
         //private bool keyPressed = false;
-        private List<GameObject> objectList;
-        public string stimulus;
+        private string stimulus;
 
         public void SpawnRandomStim()
         {
-            objectList = new List<GameObject>();
-            int stimIndex = Random.Range(0, stimObjects.Length);
-            GameObject stim = Instantiate(stimObjects[stimIndex],
-            stimObjects[stimIndex].transform.position,
-            stimObjects[stimIndex].transform.rotation);
-            stimulus = stim.transform.name;
-            Debug.Log(stim.name);
-            GameObject.Destroy(stim, stimulusDuration);
-            objectList.Add(stim);
+            if(stimObjects.Length != 0)
+            {
+                int stimIndex = Random.Range(0, stimObjects.Length);
+                GameObject stim = Instantiate(stimObjects[stimIndex],
+                    stimObjects[stimIndex].transform.position,
+                    stimObjects[stimIndex].transform.rotation);
+                stimulus = stim.transform.name;
+                Debug.Log(stim.name);
+                stimObjects.Remove(stim);
+            }
         }
         
         public string GetStimSpawned()
@@ -38,6 +39,18 @@ namespace CausalInfMSI
             foreach (var item in objectList)
             {
                 Destroy(item);
+            }
+        }
+
+        public void setStimObjects(GameObject[] stimObject)
+        {
+            //stimObjects = stimObject;
+
+            stimObjects = new List<GameObject>();
+
+            foreach(GameObject obj in stimObject)
+            {
+                stimObjects.Add(obj);
             }
         }
     }
