@@ -16,12 +16,12 @@ namespace CausalInfMSI
 		public string subjectID;
 		public string response;
 		public string stim;
-		public int numTrials = 50;
 		public int numBlocks = 1;
 		public int block = 0;
 		public int trial = 0;
 		
 		public GameObject[] stimObjects;
+		public int numTrials = 50;
 
 		public LaserInput laserInput;
 		public SpawnController spawnController;
@@ -54,7 +54,7 @@ namespace CausalInfMSI
 
 		public void LogData()
 		{
-			string stim = spawnController.stimulus;
+			string stim = spawnController.getStimulus();
 
 			_dataController.row["subject"] = subjectID;
 			_dataController.row["trial"] = trial.ToString();
@@ -64,9 +64,10 @@ namespace CausalInfMSI
 			_dataController.Log();
 		}
 
-		public setStimulus()
+		public void setStimulus()
         {
-			gameObject.GetComponent("SpawnController").setStimObjects(stimObjects);
+			//gameObject.GetComponent("SpawnController").setStimObjects(stimObjects);
+			spawnController.setStimObjects(stimObjects);
 		}
 	} 
 }

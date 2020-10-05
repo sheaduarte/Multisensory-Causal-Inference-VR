@@ -9,7 +9,7 @@ namespace CausalInfMSI
     public class SpawnController : MonoBehaviour
     {
         //public GameObject[] stimObjects;
-        private List<GameObject> stimObjects;
+        public List<GameObject> stimObjects;
         public float spawnTime;
         public float stimulusDuration;
         //private bool keyPressed = false;
@@ -17,28 +17,25 @@ namespace CausalInfMSI
 
         public void SpawnRandomStim()
         {
-            if(stimObjects.Length != 0)
+            if(stimObjects.Count != 0)
             {
-                int stimIndex = Random.Range(0, stimObjects.Length);
+                int stimIndex = Random.Range(0, stimObjects.Count - 1);
                 GameObject stim = Instantiate(stimObjects[stimIndex],
                     stimObjects[stimIndex].transform.position,
                     stimObjects[stimIndex].transform.rotation);
                 stimulus = stim.transform.name;
                 Debug.Log(stim.name);
-                stimObjects.Remove(stim);
+                stimObjects.Remove(stimObjects[stimIndex]);
+                Destroy(stim, stimulusDuration);
+                PrintList();
             }
         }
-        
-        public string GetStimSpawned()
-        {
-            return objectList.ToString();
-        }
 
-        public void DestroyAllObjects()
+        public void PrintList()
         {
-            foreach (var item in objectList)
+            foreach (var x in stimObjects)
             {
-                Destroy(item);
+                Debug.Log(x.ToString());
             }
         }
 
@@ -52,7 +49,29 @@ namespace CausalInfMSI
             {
                 stimObjects.Add(obj);
             }
+            PrintList();
+            Debug.Log("-----------");
         }
+
+        public string getStimulus()
+        {
+            return stimulus;
+        }
+
+
+        //public string GetStimSpawned()
+        //{
+        //    return objectList.ToString();
+        //}
+
+        //public void DestroyAllObjects()
+        //{
+        //    foreach (var item in objectList)
+        //    {
+        //        Destroy(item);
+        //    }
+        //}
+
     }
 }
 
