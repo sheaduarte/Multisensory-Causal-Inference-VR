@@ -16,14 +16,31 @@ namespace CausalInfMSI
         {
             yield return new WaitForSeconds(1f);
             TaskManager.responseController.SpawnResponseBlobs();
-            //yield return TaskManager.StartCoroutine(ListenForResponses());
-            TaskManager.response = TaskManager.laserInput.response;
+            Debug.Log("before");
+            yield return new WaitUntil(() => TaskManager.laserInput.gotResponse);
+            Debug.Log(TaskManager.laserInput.gotResponse);
+            Debug.Log("after");
+            TaskManager.firstResponse = TaskManager.laserInput.response;
+            yield return new WaitForSeconds(0.5f);
+            TaskManager.responseController.DestroyAllObjects();
+            TaskManager.laserInput.gotResponse = false;
+
+            // Second Response
+            TaskManager.responseController.SpawnResponseBlobs();
+            Debug.Log("before");
+            yield return new WaitUntil(() => TaskManager.laserInput.gotResponse);
+            Debug.Log(TaskManager.laserInput.gotResponse);
+            Debug.Log("after");
+            TaskManager.secondResponse = TaskManager.laserInput.response;
             TaskManager.LogData();
-
+            yield return new WaitForSeconds(0.5f);
+            TaskManager.responseController.DestroyAllObjects();
+            TaskManager.laserInput.gotResponse = false;
             // Go to next state
-            TaskManager.SetState(new SecondTrialResponse(TaskManager));
-
+            //TaskManager.SetState(new SecondTrialResponse(TaskManager));
+            TaskManager.SetState(new EndTrial(TaskManager));
         }
+
 
         //public IEnumerator ListenForResponses()
         //{
