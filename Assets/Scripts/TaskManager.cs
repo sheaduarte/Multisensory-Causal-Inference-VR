@@ -11,11 +11,12 @@ namespace CausalInfMSI
 		private State _priorState;
 
 		// data variables
-		List<string> variableList = new List<string>() { "subject", "trial", "stimulus","first_response", "second_response" }; // removed ,"second_response" 
+		List<string> variableList = new List<string>() { "subject","task","block","trial", "stimulus","response"}; // removed ,"second_response" 
 		private string dataPath;
 		public string subjectID;
+		public string task;
 		public string firstResponse;
-		public string secondResponse;
+		//public string secondResponse;
 		public string stim;
 		public int numBlocks = 1;
 		public int block = 0;
@@ -27,14 +28,14 @@ namespace CausalInfMSI
 		public LaserInput laserInput;
 		public SpawnController spawnController;
 		public ResponseController responseController;
-		public SecondResponseController secondResponseController;
+		//public SecondResponseController secondResponseController;
 		private DataController _dataController;
 
 		private void Start()
 		{
 			// data writer
 			dataPath = Path.Combine(Application.dataPath, "..", "..", "Data");
-			_dataController = new DataController(variableList, dataPath, subjectID);
+			_dataController = new DataController(variableList, dataPath, subjectID, task);
 			_dataController.Activate();
 
 
@@ -58,10 +59,12 @@ namespace CausalInfMSI
 			string stim = spawnController.getStimulus();
 
 			_dataController.row["subject"] = subjectID;
+			_dataController.row["task"] = task;
 			_dataController.row["trial"] = trial.ToString();
+			_dataController.row["block"] = block.ToString();
 			_dataController.row["stimulus"] = stim;
-			_dataController.row["first_response"] = firstResponse;
-			_dataController.row["second_response"] = secondResponse;
+			_dataController.row["response"] = firstResponse;
+			//_dataController.row["second_response"] = secondResponse;
 
 			_dataController.Log();
 		}
