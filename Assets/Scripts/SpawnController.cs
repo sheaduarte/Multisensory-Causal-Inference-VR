@@ -10,7 +10,7 @@ namespace CausalInfMSI
     {
         //public GameObject[] stimObjects;
         public List<GameObject> stimObjects;
-        public float spawnTime;
+        //public float spawnTime;
         public float stimulusDuration;
         //private bool keyPressed = false;
         private string stimulus;

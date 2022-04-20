@@ -11,7 +11,7 @@ namespace CausalInfMSI
 		private State _priorState;
 
 		// data variables
-		List<string> variableList = new List<string>() { "subject", "trial", "stimulus","first_response","second_response" };
+		List<string> variableList = new List<string>() { "subject", "trial", "stimulus","first_response", "second_response" }; // removed ,"second_response" 
 		private string dataPath;
 		public string subjectID;
 		public string firstResponse;

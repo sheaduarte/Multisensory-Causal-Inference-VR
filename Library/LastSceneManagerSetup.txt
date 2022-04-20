@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MSIprototype.unity
+- path: Assets/Scenes/SemanticsMSI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

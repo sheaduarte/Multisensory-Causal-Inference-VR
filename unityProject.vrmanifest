@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.multisensorycausalinference.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\seduarte\\Documents\\GitHub\\MultisensoryCausalInference\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\seduarte\\Documents\\GitHub\\Multisensory-Causal-Inference-VR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "MultisensoryCausalInference [Testing]"
