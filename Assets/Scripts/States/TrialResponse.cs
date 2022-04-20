@@ -14,6 +14,7 @@ namespace CausalInfMSI
 
         public override IEnumerator Start()
         {
+<<<<<<< HEAD
             yield return new WaitForSeconds(1f); // delay
             TaskManager.responseController.SpawnResponseBlobs(); // spawn response blobs
             Debug.Log("before");
@@ -33,15 +34,18 @@ namespace CausalInfMSI
             Debug.Log(TaskManager.laserInput.gotResponse);
             Debug.Log("after");
             TaskManager.secondResponse = TaskManager.laserInput.response;
+=======
+            yield return new WaitForSeconds(1f);
+            TaskManager.responseController.SpawnResponseBlobs();
+            //yield return TaskManager.StartCoroutine(ListenForResponses());
+            TaskManager.response = TaskManager.laserInput.response;
+>>>>>>> parent of f9ce7df (Changes to response system)
             TaskManager.LogData();
-            yield return new WaitForSeconds(0.5f);
-            TaskManager.responseController.DestroyAllObjects();
-            TaskManager.laserInput.gotResponse = false;
-            // Go to next state
-            //TaskManager.SetState(new SecondTrialResponse(TaskManager));
-            TaskManager.SetState(new EndTrial(TaskManager));
-        }
 
+            // Go to next state
+            TaskManager.SetState(new SecondTrialResponse(TaskManager));
+
+        }
 
         //public IEnumerator ListenForResponses()
         //{

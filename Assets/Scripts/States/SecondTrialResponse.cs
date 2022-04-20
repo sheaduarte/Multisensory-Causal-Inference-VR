@@ -13,11 +13,11 @@ namespace CausalInfMSI
         }
 
         public override IEnumerator Start()
-        {
-            yield return null;
+        {            
+            yield return new WaitForSeconds(2f);
             TaskManager.secondResponseController.SpawnSecondResponseBlobs();
             //yield return TaskManager.StartCoroutine(ListenForResponses());
-            TaskManager.secondResponse = TaskManager.laserInput.response;
+            TaskManager.response = TaskManager.laserInput.response;
             TaskManager.LogData();
 
             // Go to next state

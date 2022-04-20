@@ -13,7 +13,6 @@ namespace CausalInfMSI
         public SteamVR_Input_Sources handtype;
         public bool somethingSelected = false;
         public string response;
-        public bool gotResponse = false;
 
         // For highlighting
         public int redCol;
@@ -23,7 +22,6 @@ namespace CausalInfMSI
         // Start is called before the first frame update
         void Start()
         {
-            response = "false";
             currentObject = null;
             currentID = 0;
             onTriggerSqueeze.AddOnStateDownListener(OnViveTriggerDown, handtype);
@@ -50,15 +48,13 @@ namespace CausalInfMSI
             {
                 response = currentObject.transform.name;
                 Debug.Log(response);
-                gotResponse = true;
-                currentObject.GetComponent<Renderer>().material.color = new Color32((byte)redCol, (byte)greenCol, (byte)blueCol, 255);
             }
             
         }
 
         public void OnViveTriggerDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources Any)
         {
-            //string response = currentObject.transform.name;
+            string response  = currentObject.transform.name;
             //Debug.Log(response);
             currentObject.GetComponent<Renderer>().material.color = new Color32((byte)redCol, (byte)greenCol, (byte)blueCol, 255);
         }
