@@ -63,6 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\BewerageMakerEditor.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\ProductEditor.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\ProductManagerEditor.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotHelperEditor.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotImportSettings.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Editor\SliceHelperEditor.cs" />
     <Compile Include="Assets\SteamAudio\Editor\Build.cs" />
     <Compile Include="Assets\SteamAudio\Editor\MaterialValueDrawer.cs" />
     <Compile Include="Assets\SteamAudio\Editor\SimulationSettingsValueDrawer.cs" />

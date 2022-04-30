@@ -63,6 +63,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extra Assets\Animal pack deluxe\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\Extra Assets\Clock\Scripts\Clock.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\BewerageMaker.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\CookableProduct.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\CreateProductOnPlaceHolder.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\DeleteProductOnSlot.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\DrinkableProduct.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\FillCupHelper.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Microwave.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\OnClickCoverHelper.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\PanGameObject.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\PlayerSlots.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Product.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ProductGameObject.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ProductManager.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ProductType.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ProductWithCover.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ProgressHelper.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ReadyToServe.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\ServeOrder.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\StoveGameObject.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicCameraControl.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicGameEvents.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Utilities\ScreenShotHelper.cs" />
+    <Compile Include="Assets\Extra Assets\CoffeeShopStarterPack\Scripts\Utilities\SliceHelper.cs" />
+    <Compile Include="Assets\Extra Assets\PBRMeleeWeaponsPack\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Extra Assets\PBRMeleeWeaponsPack\Scripts\SphericalRotation.cs" />
+    <Compile Include="Assets\Extra Assets\PBRMeleeWeaponsPack\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Extra Assets\PBRMeleeWeaponsPack\Scripts\WeaponsChanger.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Scripts &amp; Animation\TableFlipL.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\Bar &amp; Liquor Cabinets\Scripts &amp; Animation\TableFlipR.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor1.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\X Axis\Drawer_Pull_X.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\First Person Player\MouseLook.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\First Person Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
+    <Compile Include="Assets\Extra Assets\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Scripts\DataController.cs" />
     <Compile Include="Assets\Scripts\LaserInput.cs" />
     <Compile Include="Assets\Scripts\ResponseController.cs" />
@@ -75,7 +117,6 @@
     <Compile Include="Assets\Scripts\States\EndTask.cs" />
     <Compile Include="Assets\Scripts\States\EndTrial.cs" />
     <Compile Include="Assets\Scripts\States\ITI.cs" />
-    <Compile Include="Assets\Scripts\States\SecondTrialResponse.cs" />
     <Compile Include="Assets\Scripts\States\StartBlock.cs" />
     <Compile Include="Assets\Scripts\States\StartTrial.cs" />
     <Compile Include="Assets\Scripts\States\TrialResponse.cs" />
@@ -199,6 +240,7 @@
     <Compile Include="Assets\ViveSR\Scripts\SRWorks_Enums.cs" />
     <Compile Include="Assets\ViveSR\Scripts\SRanipal_API.cs" />
     <Compile Include="Assets\ViveSR\Scripts\SRanipal_Enums.cs" />
+    <Compile Include="Assets\soundScript.cs" />
     <None Include="Assets\ViveSR\Shaders\Unlit-Alpha2Gray.shader" />
     <None Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Shaders\UltimateOutline.shader" />
     <None Include="Assets\ViveSR\Shaders\DartBoardShader.shader" />
