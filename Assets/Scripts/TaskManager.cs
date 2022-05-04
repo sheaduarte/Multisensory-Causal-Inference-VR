@@ -38,7 +38,6 @@ namespace CausalInfMSI
 			_dataController = new DataController(variableList, dataPath, subjectID, task);
 			_dataController.Activate();
 
-
 			SetState(new StartBlock(this));
 		}
 
