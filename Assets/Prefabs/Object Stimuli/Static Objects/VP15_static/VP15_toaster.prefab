@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3140771899028760227
+--- !u!1 &4731786980304481247
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3140771899028760225}
+  - component: {fileID: 4731786980304481245}
   m_Layer: 0
   m_Name: VP15_toaster
   m_TagString: Untagged
@@ -16,27 +16,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3140771899028760225
+--- !u!4 &4731786980304481245
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3140771899028760227}
+  m_GameObject: {fileID: 4731786980304481247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.26, y: 1.143, z: 4.662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3140771898424038272}
+  - {fileID: 4731786980237942524}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &3140771898424445136
+--- !u!1001 &4731786980237559212
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3140771899028760225}
+    m_TransformParent: {fileID: 4731786980304481245}
     m_Modifications:
     - target: {fileID: 183418, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_Name
@@ -44,11 +44,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.128
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -112,18 +112,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
---- !u!4 &3140771898424038272 stripped
+--- !u!4 &4731786980237942524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8,
     type: 3}
-  m_PrefabInstance: {fileID: 3140771898424445136}
+  m_PrefabInstance: {fileID: 4731786980237559212}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3140771899301933139
+--- !u!1001 &4731786981105024303
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3140771898424038272}
+    m_TransformParent: {fileID: 4731786980237942524}
     m_Modifications:
     - target: {fileID: 100002, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
       propertyPath: m_IsActive

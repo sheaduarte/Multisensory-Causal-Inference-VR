@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1584699312889745335
+--- !u!1 &1603843790710533556
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1584699312889745333}
-  m_Layer: 0
-  m_Name: VP15AZ_toaster
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1584699312889745333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584699312889745335}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.26, y: 1.143, z: 4.662}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1584699314836486804}
-  - {fileID: 5647881617270561223}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8032291947203305935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5647881617270561223}
-  - component: {fileID: 1620591949812331027}
+  - component: {fileID: 4243439030027559177}
+  - component: {fileID: 3706745834678203301}
   m_Layer: 0
   m_Name: AZ (3)
   m_TagString: Untagged
@@ -49,27 +17,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5647881617270561223
+--- !u!4 &4243439030027559177
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032291947203305935}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.26, y: 0, z: 0.33799982}
+  m_GameObject: {fileID: 1603843790710533556}
+  m_LocalRotation: {x: -0, y: -0.43037084, z: -0, w: 0.9026522}
+  m_LocalPosition: {x: -1.0552275, y: 0.128, z: -0.76538867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1584699312889745333}
-  m_RootOrder: 1
+  m_Father: {fileID: 3389184520373525399}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1620591949812331027
+--- !u!82 &3706745834678203301
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032291947203305935}
+  m_GameObject: {fileID: 1603843790710533556}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -159,12 +127,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1584699313698740551
+--- !u!1 &3389184519635906228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3389184519635906230}
+  m_Layer: 0
+  m_Name: VP15AZ_toaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3389184519635906230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389184519635906228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.26, y: 1.143, z: 4.662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3389184520373525399}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3389184519372175428
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1584699314836486804}
+    m_TransformParent: {fileID: 3389184520373525399}
     m_Modifications:
     - target: {fileID: 100002, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
       propertyPath: m_IsActive
@@ -236,12 +235,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
---- !u!1001 &1584699314836627908
+--- !u!1001 &3389184520373371079
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1584699312889745333}
+    m_TransformParent: {fileID: 3389184519635906230}
     m_Modifications:
     - target: {fileID: 183418, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_Name
@@ -249,11 +248,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.128
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -317,9 +316,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
---- !u!4 &1584699314836486804 stripped
+--- !u!4 &3389184520373525399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8,
     type: 3}
-  m_PrefabInstance: {fileID: 1584699314836627908}
+  m_PrefabInstance: {fileID: 3389184520373371079}
   m_PrefabAsset: {fileID: 0}

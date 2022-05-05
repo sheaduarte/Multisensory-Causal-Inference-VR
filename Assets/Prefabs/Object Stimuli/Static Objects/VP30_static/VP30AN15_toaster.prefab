@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3151001598366808576
+--- !u!1 &1643377016446142527
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3151001598366808578}
-  m_Layer: 0
-  m_Name: VP30AN15_toaster
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3151001598366808578
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151001598366808576}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.24, y: 1.143, z: 3.71}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3151001597898395427}
-  - {fileID: 2355134389791122878}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4484143360742877024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2355134389791122878}
-  - component: {fileID: 3789956414160693971}
+  - component: {fileID: 2227787221655584734}
+  - component: {fileID: 6364080097460448164}
   m_Layer: 0
   m_Name: N15 (3)
   m_TagString: Untagged
@@ -49,27 +17,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2355134389791122878
+--- !u!4 &2227787221655584734
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4484143360742877024}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.48, y: 0, z: 0.9520006}
+  m_GameObject: {fileID: 1643377016446142527}
+  m_LocalRotation: {x: -0, y: -0.43037084, z: -0, w: 0.9026522}
+  m_LocalPosition: {x: -2.929903, y: 0.128, z: -2.103667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3151001598366808578}
-  m_RootOrder: 1
+  m_Father: {fileID: 5230050647640841868}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &3789956414160693971
+--- !u!82 &6364080097460448164
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4484143360742877024}
+  m_GameObject: {fileID: 1643377016446142527}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -159,12 +127,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &3151001597898282099
+--- !u!1 &5230050648645725103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5230050648645725101}
+  m_Layer: 0
+  m_Name: VP30AN15_toaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5230050648645725101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230050648645725103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.24, y: 1.143, z: 3.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5230050647640841868}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5230050647640458716
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3151001598366808578}
+    m_TransformParent: {fileID: 5230050648645725101}
     m_Modifications:
     - target: {fileID: 183418, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_Name
@@ -172,11 +171,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.128
       objectReference: {fileID: 0}
     - target: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -240,18 +239,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9745ae4ef72624a479664a1cb4010fe8, type: 3}
---- !u!4 &3151001597898395427 stripped
+--- !u!4 &5230050647640841868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 416592, guid: 9745ae4ef72624a479664a1cb4010fe8,
     type: 3}
-  m_PrefabInstance: {fileID: 3151001597898282099}
+  m_PrefabInstance: {fileID: 5230050647640458716}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &3151001599168457968
+--- !u!1001 &5230050648910511455
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 3151001597898395427}
+    m_TransformParent: {fileID: 5230050647640841868}
     m_Modifications:
     - target: {fileID: 100002, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
       propertyPath: m_IsActive
