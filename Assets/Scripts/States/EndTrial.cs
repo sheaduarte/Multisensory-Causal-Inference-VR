@@ -15,7 +15,7 @@ namespace CausalInfMSI
 
 		public override IEnumerator Start()
 		{
-			yield return new WaitForSeconds(1f);
+			yield return new WaitForSeconds(.5f);
 
 			TaskManager.trial += 1;
 
