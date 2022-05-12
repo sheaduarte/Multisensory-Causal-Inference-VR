@@ -10,7 +10,6 @@ namespace CausalInfMSI
 	{
 		public EndTrial(TaskManager taskManager) : base(taskManager)
 		{
-
 		}
 
 		public override IEnumerator Start()
