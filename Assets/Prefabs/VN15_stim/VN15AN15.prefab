@@ -26,11 +26,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686610012287979009}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.26, y: 1.143, z: 4.662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.294, y: 1.143, z: 4.83}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
-  - {fileID: 6663017203780855219}
+  - {fileID: 5834377550194276328}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -94,7 +94,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &4066484618319318639
+--- !u!1001 &3814297746789637172
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -104,7 +104,7 @@ PrefabInstance:
     - target: {fileID: 5607856919561702666, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
         type: 3}
       propertyPath: m_Name
-      value: AN15
+      value: AN15 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7212731334751415260, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
         type: 3}
@@ -161,11 +161,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7212731334751415260, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7212731334751415260, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7212731334751415260, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f117a9bcadaa4af43b1eb7997f1db6d0, type: 3}
---- !u!4 &6663017203780855219 stripped
+--- !u!4 &5834377550194276328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7212731334751415260, guid: f117a9bcadaa4af43b1eb7997f1db6d0,
     type: 3}
-  m_PrefabInstance: {fileID: 4066484618319318639}
+  m_PrefabInstance: {fileID: 3814297746789637172}
   m_PrefabAsset: {fileID: 0}
