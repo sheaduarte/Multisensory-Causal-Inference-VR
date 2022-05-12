@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1060624524463743229}
   - component: {fileID: 1060624524463743228}
   m_Layer: 0
-  m_Name: VZN30_anim_scissors
+  m_Name: VZAN30_anim_scissors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86cb787f39dd041b09d2fba4d8688aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &3023744997434448565
+--- !u!1 &7650229951554992611
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,36 +167,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9180144864077123804}
-  - component: {fileID: 1448645086422195011}
+  - component: {fileID: 2564498207430518918}
+  - component: {fileID: 8899356913026941252}
   m_Layer: 0
-  m_Name: N30 (3)
+  m_Name: N30 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9180144864077123804
+--- !u!4 &2564498207430518918
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3023744997434448565}
+  m_GameObject: {fileID: 7650229951554992611}
   m_LocalRotation: {x: 0.6802967, y: -0.14023499, z: 0.09135535, w: 0.7135719}
-  m_LocalPosition: {x: -1.0083383, y: 0.7104215, z: -0.3859793}
+  m_LocalPosition: {x: -1.1545651, y: 0.4093607, z: -0.41728666}
   m_LocalScale: {x: 0.5, y: 0.49999988, z: 0.49999988}
   m_Children: []
   m_Father: {fileID: 1056581650589155256}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1448645086422195011
+--- !u!82 &8899356913026941252
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3023744997434448565}
+  m_GameObject: {fileID: 7650229951554992611}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}

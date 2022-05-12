@@ -122,11 +122,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5406664131628831999}
-  - {fileID: 4420067977397831333}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8122735372329791915
+--- !u!1 &2166809686534865118
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,36 +133,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4420067977397831333}
-  - component: {fileID: 1540719879846292863}
+  - component: {fileID: 2040246895028417755}
+  - component: {fileID: 5057601048395928307}
   m_Layer: 0
-  m_Name: P30 (3)
+  m_Name: P30 (1)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4420067977397831333
+--- !u!4 &2040246895028417755
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8122735372329791915}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.24, y: 0, z: -1.29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 2166809686534865118}
+  m_LocalRotation: {x: -0.13637204, y: 0.97773427, z: 0.022032559, w: -0.15796511}
+  m_LocalPosition: {x: -1.3807205, y: -0.20788848, z: 0.9288057}
+  m_LocalScale: {x: 0.66666675, y: 0.6666666, z: 0.66666657}
   m_Children: []
-  m_Father: {fileID: 380855154657423893}
-  m_RootOrder: 1
+  m_Father: {fileID: 5406664131628831999}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1540719879846292863
+--- !u!82 &5057601048395928307
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8122735372329791915}
+  m_GameObject: {fileID: 2166809686534865118}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}

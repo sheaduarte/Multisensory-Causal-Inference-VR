@@ -28,7 +28,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8959027143681051487}
-  - {fileID: 3534734837633162925}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -126,7 +125,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!1 &7899029302976422301
+--- !u!1 &4727183944051718462
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,36 +133,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3534734837633162925}
-  - component: {fileID: 9096281647528574693}
+  - component: {fileID: 5674634951022186672}
+  - component: {fileID: 3899832035180809062}
   m_Layer: 0
-  m_Name: P30 (3)
+  m_Name: P30 (1)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3534734837633162925
+--- !u!4 &5674634951022186672
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7899029302976422301}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.48, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 4727183944051718462}
+  m_LocalRotation: {x: -0.13637204, y: 0.97773427, z: 0.022032559, w: -0.15796511}
+  m_LocalPosition: {x: -3.0428767, y: -0.6639418, z: 1.0096747}
+  m_LocalScale: {x: 0.66666675, y: 0.6666666, z: 0.66666657}
   m_Children: []
-  m_Father: {fileID: 3608964843331087797}
-  m_RootOrder: 1
+  m_Father: {fileID: 8959027143681051487}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &9096281647528574693
+--- !u!82 &3899832035180809062
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7899029302976422301}
+  m_GameObject: {fileID: 4727183944051718462}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}

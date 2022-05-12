@@ -28,11 +28,10 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1103502877559212677}
-  - {fileID: 6696040563529461235}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7544118709358376197
+--- !u!1 &5369055313125797368
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,36 +39,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6696040563529461235}
-  - component: {fileID: 3328807952557163244}
+  - component: {fileID: 1281824628865983965}
+  - component: {fileID: 4359491767208479343}
   m_Layer: 0
-  m_Name: AZ (3)
+  m_Name: Z (1)
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6696040563529461235
+--- !u!4 &1281824628865983965
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7544118709358376197}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.12, y: 0, z: 0.645}
+  m_GameObject: {fileID: 5369055313125797368}
+  m_LocalRotation: {x: 0.0060039163, y: -0.018766098, z: -0.0009854629, w: 0.9998054}
+  m_LocalPosition: {x: -1.2616919, y: -0.001264598, z: 0.2878486}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
-  m_Father: {fileID: 1103502876821065691}
-  m_RootOrder: 1
+  m_Father: {fileID: 1103502877559212677}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &3328807952557163244
+--- !u!82 &4359491767208479343
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7544118709358376197}
+  m_GameObject: {fileID: 5369055313125797368}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
